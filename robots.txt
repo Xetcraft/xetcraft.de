@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xetcraft.de/sitemap.xml
