@@ -179,6 +179,8 @@ h2 { margin: 0 0 1.75rem; font: 900 clamp(1.7rem, 4vw, 2.4rem)/1.15 "Nunito Blac
 
 /* ReactRadar-Illustration */
 .wallpaper .bild img { object-position: center; }
+.xetrace .bild { background: #060309; }
+.xetrace .bild img { object-position: center; }
 .reactradar .bild { display: grid; place-items: center; background: radial-gradient(circle at 50% 50%, #221a3a, #111016 70%); }
 .radar { position: relative; height: 82%; aspect-ratio: 1; }
 .radar .kreis { position: absolute; border-radius: 50%; border: 1px solid rgba(155, 120, 255, .35); }
