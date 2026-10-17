@@ -228,6 +228,10 @@ h2 { margin: 0 0 1.75rem; font: 900 clamp(1.7rem, 4vw, 2.4rem)/1.15 "Nunito Blac
 .ueber div { padding-left: 1rem; border-left: 3px solid var(--magenta); }
 .ueber h3 { margin: 0 0 .3rem; font-size: 1.05rem; font-weight: 800; color: #fff; }
 .ueber p { margin: 0; color: var(--text-leise); }
+.kanaele { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1rem; margin-top: 1.75rem; }
+.sozial { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.sozial a { display: inline-block; padding: .4rem .85rem; border-radius: 999px; background: rgba(237, 228, 255, .06); box-shadow: inset 0 0 0 1px var(--linie); text-decoration: none; font-weight: 800; font-size: .9rem; color: var(--text-leise); transition: color .2s, box-shadow .2s, background .2s; }
+.sozial a:hover, .sozial a:focus-visible { color: #fff; background: rgba(194, 77, 255, .14); box-shadow: inset 0 0 0 1px var(--magenta); }
 
 /* Fuß */
 footer.unten { margin-top: 2rem; padding-block: 1.5rem; border-top: 1px solid var(--linie); font-size: .9rem; color: var(--text-leise); }
